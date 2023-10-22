@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundall">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btnMenos"
+            android:layout_width="109dp"
+            android:layout_height="73dp"
+            android:layout_above="@+id/btnMultiplicando"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="82dp"
+            android:layout_marginBottom="69dp"
+            android:backgroundTint="#FF8400"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btnMultiplicando"
+            android:layout_width="109dp"
+            android:layout_height="73dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="79dp"
+            android:layout_marginBottom="199dp"
+            android:backgroundTint="#FF8400"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="x"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btnMais"
+            android:layout_width="109dp"
+            android:layout_height="73dp"
+            android:layout_above="@+id/btnDividir"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="77dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="71dp"
+            android:layout_toStartOf="@+id/btnMenos"
+            android:backgroundTint="#FF8400"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="+"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnMais"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="156dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="87dp"
+            android:fontFamily="serif"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="CACULADORA"
+            android:textColor="#000000"
+            android:textColorHint="#F6F6F6"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_width="109dp"
+            android:layout_height="73dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="200dp"
+            android:layout_toStartOf="@+id/btnMultiplicando"
+            android:backgroundTint="#FF8400"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="/"
+            android:textSize="40sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
