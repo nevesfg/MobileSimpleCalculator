@@ -42,6 +42,7 @@
             android:foregroundGravity="center"
             android:gravity="center"
             android:inputType="number"
+            android:textColor="#000000"
             android:textColorHint="#000000" />
 
         <EditText
@@ -58,20 +59,21 @@
             android:foregroundGravity="center"
             android:gravity="center"
             android:inputType="number"
+            android:textColor="#000000"
             android:textColorHint="#000000" />
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="280dp"
-            android:layout_height="95dp"
+            android:layout_width="293dp"
+            android:layout_height="91dp"
             android:layout_above="@+id/textOneMul"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="55dp"
             android:layout_marginTop="75dp"
-            android:layout_marginEnd="74dp"
-            android:layout_marginBottom="111dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="115dp"
             android:foregroundGravity="center"
             android:gravity="center"
             android:text="MULTIPLICAÇÃO"
@@ -87,10 +89,10 @@
             android:layout_alignParentEnd="true"
             android:layout_marginStart="177dp"
             android:layout_marginEnd="192dp"
-            android:layout_marginBottom="47dp"
+            android:layout_marginBottom="36dp"
             android:foregroundGravity="center"
             android:gravity="center"
-            android:text="+"
+            android:text="*"
             android:textSize="60sp" />
 
         <TextView
@@ -105,7 +107,9 @@
             android:layout_marginBottom="60dp"
             android:foregroundGravity="center"
             android:gravity="center"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
 
         <Button
             android:id="@+id/backbutton"
